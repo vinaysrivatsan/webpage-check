@@ -1,7 +1,11 @@
 {
   "ntfy_topic": "nit-webwatch-7f3c9a1b",
   "watches": [
-    { "name": "Example Home", "url": "https://example.com", "mode": "hash", "selector": "main" },
-    { "name": "Example Keyword", "url": "https://example.com", "mode": "keyword", "keyword": "Pricing", "selector": "body" }
+    {
+      "name": "UTC Time",
+      "url": "https://worldtimeapi.org/api/timezone/Etc/UTC",
+      "mode": "hash"
+    }
+
   ]
 }
