@@ -18,7 +18,7 @@ REQUEST_TIMEOUT_S = 25
 MAX_RETRIES = 2
 RETRY_BACKOFF_S = 2.0
 DELAY_BETWEEN_REQUESTS_S = 0.6   # ~50 pages ≈ ~30 seconds
-ALERT_COOLDOWN_S = 60 * 30       # 30 min: avoid repeated alerts for same URL
+ALERT_COOLDOWN_S = 0      # 30 min: avoid repeated alerts for same URL 60 * 30
 
 def load_json(path: str, default):
     try:
