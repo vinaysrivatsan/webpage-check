@@ -2,8 +2,8 @@
   "ntfy_topic": "nit-webwatch-7f3c9a1b",
   "watches": [
     {
-      "name": "Unix Time",
-      "url": "https://timeapi.io/api/v1/time/current/unix",
+      "name": "UTC Time",
+      "url": "https://worldtimeapi.org/api/timezone/Etc/UTC",
       "mode": "hash"
     }
 
