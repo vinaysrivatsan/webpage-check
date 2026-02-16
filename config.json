@@ -3,7 +3,7 @@
   "watches": [
     {
       "name": "Unix Time",
-      "url": "https://www.timeapi.io/api/Time/current/zone?timeZone=Etc/UTC",
+      "url": "https://httpbin.org/uuid",
       "mode": "hash"
     }
 
