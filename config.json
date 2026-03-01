@@ -5,7 +5,16 @@
       "name": "Unix Time",
       "url": "https://httpbin.org/uuid",
       "mode": "hash"
+    },
+    {
+      "name": "Birch Fellowship",
+      "url" : "https://www.thebirchcenter.org/birch-fellows",
+      "mode":"hash"
+    },
+    {
+      "name": "Assistantship",
+      "url" : "https://www.umass.edu/graduate/funding/assistantship-and-hourly-opportunities",
+      "mode":"hash"
     }
-
   ]
 }

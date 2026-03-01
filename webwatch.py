@@ -19,7 +19,7 @@ REQUEST_TIMEOUT_S = 25
 MAX_RETRIES = 2
 RETRY_BACKOFF_S = 2.0
 DELAY_BETWEEN_REQUESTS_S = 0.6   # ~50 pages ≈ ~30 seconds
-ALERT_COOLDOWN_S = 0             # set to 60*30 for 30 min cooldown
+ALERT_COOLDOWN_S = 60*30             # set to 60*30 for 30 min cooldown
 
 # ---- Diff / storage limits ----
 MAX_DIFF_LINES = 40              # keep notifications readable
